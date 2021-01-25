@@ -1,7 +1,7 @@
 ARG BUILD_VERSION
 # FROM zwavejs/zwavejs2mqtt:$BUILD_VERSION
 # TEMP: use this dev version as it fixes the data path from env
-FROM zwavejs/zwavejs2mqtt:sha-2ceb59a
+FROM zwavejs/zwavejs2mqtt:sha-d64ab57
 
 RUN apk update && \
     apk add --no-cache jq
